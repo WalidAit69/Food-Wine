@@ -1,0 +1,157 @@
+.Auth_page {
+  display: grid;
+  grid-template-columns: 500px 1fr;
+}
+
+.Auth_img img {
+  object-fit: cover;
+  width: 500px;
+  height: 90vh;
+}
+
+.auth_nav {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.auth_lang {
+  margin-top: 1rem;
+  margin-left: 2rem;
+  display: flex;
+  align-items: center;
+}
+
+.auth_lang p {
+  margin-left: 0.5rem;
+}
+
+.auth_signin {
+  margin-top: 1rem;
+  margin-left: 1rem;
+  display: flex;
+  align-items: center;
+}
+
+.auth_signinbtn {
+  margin-left: 0.5rem;
+  padding: 0.4rem 0.9rem;
+  background: transparent;
+  border: 1px solid black;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.auth_signinbtn:hover {
+  transform: scale(1.04);
+}
+
+.auth_main {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+}
+
+.auth_main img {
+  width: 300px;
+}
+
+.auth_main h3 {
+  text-align: center;
+  max-width: 500px;
+  font-weight: 400;
+  color: gray;
+}
+
+.register_form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
+}
+
+.user_input {
+  width: 100%;
+  padding: 0.8rem;
+  outline: none;
+  border: 1px solid rgb(204, 202, 202);
+}
+
+.check {
+  display: flex;
+  align-items: center;
+}
+
+.checkbox {
+  width: 20px;
+  transform: scale(1.5);
+}
+
+.label {
+  margin-left: 0.4rem;
+}
+
+.label span a {
+  color: black;
+}
+
+.btn {
+  margin-top: 0.5rem;
+  padding: 0.7rem 2.5rem;
+  border: none;
+  outline: none;
+  color: white;
+  background-color: black;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: .3s;
+}
+
+.btn:hover{
+  transform: scale(1.04);
+}
+
+@media (max-width: 1480px) {
+  .Auth_page {
+    grid-template-columns: 400px 1fr;
+  }
+
+  .Auth_img img {
+    width: 400px;
+  }
+}
+
+@media (max-width: 1190px) {
+  .Auth_page {
+    grid-template-columns: 300px 1fr;
+  }
+
+  .Auth_img img {
+    width: 300px;
+  }
+}
+
+@media (max-width: 1050px) {
+  .Auth_page {
+    grid-template-columns: 1fr;
+  }
+
+  .Auth_img img {
+    display: none;
+  }
+}
+
+@media (max-width: 700px) {
+  .auth_signin p {
+    display: none;
+  }
+  .auth_main img {
+    width: 200px;
+  }
+
+  .auth_main h3 {
+    max-width: 300px;
+    font-size: 1rem;
+  }
+}
