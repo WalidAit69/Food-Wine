@@ -1,6 +1,6 @@
 export default {
   JWT_SECRET: "5GGfI4CjyCgv31WYldr1WbJiGcJsktlB5APAJ8XSP7E=",
-  S3_ACCESS_KEY: "srthrhsrhsrhr",
-  S3_SECRET_ACCESS_KEY: "fgfdghshshshshsrh",
-  BUCKETNAME: "hthsahh",
+  S3_ACCESS_KEY: "AKIAVWPSVOF6CKTEJBOR",
+  S3_SECRET_ACCESS_KEY: "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",
+  BUCKETNAME: "foodwine",
 };
