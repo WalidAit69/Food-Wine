@@ -8,7 +8,7 @@ import AllRecipes from "./pages/AllRecipes";
 import RecipePage from "./pages/RecipePage";
 import axios from "axios";
 
-axios.defaults.baseURL = "http://localhost:3001";
+axios.defaults.baseURL = "https://food-wine.vercel.app";
 axios.defaults.withCredentials = true;
 
 function App() {
