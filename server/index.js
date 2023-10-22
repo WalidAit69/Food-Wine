@@ -14,7 +14,7 @@ const app = express();
 
 app.use("/uploads" , staticMiddelware)
 app.use(express.json());
-app.use(cors({credentials:true,origin:'http://localhost:3000'}));
+app.use(cors({credentials:true,origin:'https://foodwine-v1.vercel.app'}));
 app.disable("x-powered-by");
 app.use(bodyParser.json());
 app.use(cookieParser());

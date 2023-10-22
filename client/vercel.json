@@ -9,7 +9,7 @@
           },
           {
             "key": "Access-Control-Allow-Origin",
-            "value": "https://roomsy-v2.vercel.app"
+            "value": "https://foodwine-v1.vercel.app"
           },
           {
             "key": "Access-Control-Allow-Methods",
